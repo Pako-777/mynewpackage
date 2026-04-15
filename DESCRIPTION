@@ -2,7 +2,7 @@ Package: mynewpackage
 Title: Outils statistiques simples
 Version: 0.0.0.9000
 Authors@R: 
-      person("Patrice", "Kolié", email = "patricepakokolie@email.com", role = c("aut", "cre"))
+      person("Patrice", "Kolié", email = "patricepakokolie@gmail.com", role = c("aut", "cre"))
 Description: Fonctions utiles pour l'analyse de données.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license

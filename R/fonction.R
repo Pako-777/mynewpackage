@@ -1,5 +1,6 @@
-moyenne_espece <- function(iris, var){
-  aggregate(data[[var]],
-            by = list(Espece = iris$Species),
-            mean)
+moyenne_espece <- function(data, nom_espece) {
+  data |>
+    filter(Species == nom_espece) |>
+    pull(Sepal.Length) |>
+    mean()
 }
