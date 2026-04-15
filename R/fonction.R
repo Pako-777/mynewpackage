@@ -87,7 +87,7 @@ corr_vars <- function(data, variables){
 #'
 #'
 #' @examples
-#' anova_var(iris, "var_qti", "var_qli")
+#' anova_var(iris, "Sepal.Length", "Species")
 
 anova_var <- function(data, variable, group){
 
@@ -120,8 +120,6 @@ anova_var <- function(data, variable, group){
 #' plot_quanti_quanti(iris, "Sepal.Length", "Petal.Length")
 
 plot_quanti_quanti <- function(data, x, y){
-
-  library(ggplot2)
 
   ggplot(data, aes(x = .data[[x]], y = .data[[y]])) +
     geom_point() +

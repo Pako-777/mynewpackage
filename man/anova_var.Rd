@@ -20,5 +20,5 @@ Le tableau de résultats de l'ANOVA.
 Réalise une ANOVA pour tester l'effet d'un facteur sur une variable quantitative.
 }
 \examples{
-anova_var(iris, "var_qti", "var_qli")
+anova_var(iris, "Sepal.Length", "Species")
 }
